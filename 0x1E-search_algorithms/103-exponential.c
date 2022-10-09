@@ -5,9 +5,10 @@
  * integers using the Binary search algorithm
  *
  *
- * @array: input array
- * @size: size of the array
- * @value: value to search in
+ * @array: is a pointer to the first
+ * element of the array to search in
+ * @size: is the number of elements in array
+ * @value: value to search for
  * Return: index of the number
  */
 int recursive_search(int *array, size_t size, int value)
